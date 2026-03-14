@@ -1,0 +1,22 @@
+
+> frontend@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.1s
+  Running TypeScript ...
+Failed to compile.
+
+./src/components/FaceVerification.tsx:144:18
+Type error: Cannot find name 'ShieldCheck'.
+
+[0m [90m 142 |[39m             [33m<[39m[33m/[39m[33mbutton[39m[33m>[39m
+ [90m 143 |[39m             [33m<[39m[33mp[39m className[33m=[39m[32m"mt-4 text-xs text-gray-400 text-center flex items-center justify-center"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 144 |[39m                 [33m<[39m[33mShieldCheck[39m className[33m=[39m[32m"w-3 h-3 mr-1"[39m [33m/[39m[33m>[39m [33mEnd[39m[33m-[39mto[33m-[39mend encrypted[33m.[39m [33mImages[39m are never stored[33m.[39m
+ [90m     |[39m                  [31m[1m^[22m[39m
+ [90m 145 |[39m             [33m<[39m[33m/[39m[33mp[39m[33m>[39m
+ [90m 146 |[39m         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 147 |[39m     )[33m;[39m[0m
+Next.js build worker exited with code: 1 and signal: null

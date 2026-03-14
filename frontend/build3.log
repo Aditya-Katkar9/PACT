@@ -1,0 +1,23 @@
+
+> frontend@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.5s
+  Running TypeScript ...
+Failed to compile.
+
+./src/app/agreements/[id]/page.tsx:4:21
+Type error: Could not find a declaration file for module 'js-cookie'. 'C:/Users/kanis/.gemini/antigravity/PACT2/frontend/node_modules/js-cookie/dist/js.cookie.mjs' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/js-cookie` if it exists or add a new declaration (.d.ts) file containing `declare module 'js-cookie';`
+
+[0m [90m 2 |[39m [36mimport[39m { useEffect[33m,[39m useState } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m 3 |[39m [36mimport[39m { useRouter[33m,[39m useParams } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m [33mCookies[39m [36mfrom[39m [32m'js-cookie'[39m[33m;[39m
+ [90m   |[39m                     [31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { [33mFileDown[39m[33m,[39m [33mRefreshCw[39m[33m,[39m [33mCheckCircle2[39m[33m,[39m [33mShieldCheck[39m[33m,[39m [33mFileText[39m } [36mfrom[39m [32m'lucide-react'[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mAgreementDetail[39m() {[0m
+Next.js build worker exited with code: 1 and signal: null

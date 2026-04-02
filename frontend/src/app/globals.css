@@ -6,8 +6,8 @@
 }
 
 :root {
-  --background: #FFFFFF;
-  --foreground: #333333;
+  --background: #fffff2;
+  --foreground: #333334;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: "rlig" 1, "calt" 1;
 }
-
 @utility glass {
   background-color: rgb(255 255 255 / 0.8);
   backdrop-filter: blur(12px);
